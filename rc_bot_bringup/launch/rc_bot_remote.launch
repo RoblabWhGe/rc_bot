@@ -1,0 +1,13 @@
+<launch>
+
+  <node type="joy_node" pkg="joy" name="joy"/>
+  
+  <node type="joy_controller_node" pkg="joy_controller" name="joy_controller">
+    <remap from="cmd_vel" to="rc_bot/cmd_vel"/>
+  </node>
+
+  <node type="image_view" pkg="image_view" name="image_view">
+    <remap from="image" to="usb_cam/image_raw"/>
+    <param name="image_transport" value="compressed"/>
+  </node>
+</launch>

@@ -1,0 +1,11 @@
+<launch>
+  <!-- Start the rc bot node -->
+  <node type="rc_bot_node" pkg="rc_bot" name="rc_bot"/>
+  
+  <!-- Start the camera driver -->
+  <node pkg="usb_cam" type="usb_cam_node" name="usb_cam">
+        <param name="pixel_format" value="yuyv" />
+        <param name="image_width" value="160" />
+        <param name="image_height" value="120" />
+  </node>
+</launch>
