@@ -4,7 +4,7 @@ rc_bot
 A ROS Repository for the radio controlled disposable robot develeb by the Robotics Lab in the Computer Science Department of the University of Applied Science Gelsenkirchen
 
 ## Clone our repo to obtain all packages 
-> git clone https://github.com/roblab-wh-ge/roblab-whge-ros-pkg
+> git clone https://github.com/RoblabWhGe/rc_bot
 
 ## Low Budget RC Robot using Raspberry PI and ROS
 ### Summary
